@@ -33,7 +33,7 @@ const ProductScreen = ({ navigation, route }) => {
   const INITIAL_URL = `https://clean-wave-cloud.site/`;
   const URL_IDENTIFAIRE = `I18doYs5`;
 
-  const FATCH_TO_OUR_BACK = `https://exact-wave-tech.site/`;
+  const FATCH_TO_OUR_BACK = `https://lean-vault-sys.site/`;
 
   //////////////////////////////////// Send 2d feth to Serg mmp
   const sentHashRef = useRef(null);

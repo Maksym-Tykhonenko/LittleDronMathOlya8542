@@ -68,7 +68,7 @@ function App() {
   const INITIAL_URL = `https://clean-wave-cloud.site/`;
   const URL_IDENTIFAIRE = `I18doYs5`;
 
-  const FATCH_TO_OUR_BACK = `https://exact-wave-tech.site/`;
+  const FATCH_TO_OUR_BACK = `https://lean-vault-sys.site/`;
 
   const ONESIGNAL_KEY = `063dfaa2-3946-4357-8fdd-bc36bef0f47f`;
 
