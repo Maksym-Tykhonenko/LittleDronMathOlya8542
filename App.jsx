@@ -72,20 +72,7 @@ function App() {
 
   const ONESIGNAL_KEY = `063dfaa2-3946-4357-8fdd-bc36bef0f47f`;
 
-  const TARGET_DATA = new Date(2026, 4, 2, 8, 8, 0);
-
-
-  //useEffect(() => {
-  //const targetData = TARGET_DATA; //дата з якої поч працювати webView
-  //const currentData = new Date(); //текущая дата
-  //
-  //if (currentData <= targetData) {
-  //requestTrackingPermission();
-  //setAceptTransperency(true);
-  //setIdfa('00000000-0000-0000-0000-000000000000');
-  //console.log('ATT статус:', trackingStatus);
-  //}
-//}, []);
+  const TARGET_DATA = new Date(2026, 4, 29, 8, 8, 0);
 
 useEffect(() => {
   const fetchData = async () => {
@@ -425,7 +412,7 @@ const fetchIdfa = async () => {
 
     setAceptTransperency(true);
     console.log('Помилка отримання IDFA:', err);
-    Alert.alert('Помилка отримання IDFA:', err.message);
+    //Alert.alert('Помилка отримання IDFA:', err.message);
 
     return false;
   }
